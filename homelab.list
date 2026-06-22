@@ -1,6 +1,0 @@
-# homelab.list - 内网 / Tailscale 组网直连
-# 策略：DIRECT
-# 说明：Tailscale 100.64/10 段 + 控制平面域名
-DOMAIN-SUFFIX,tailscale.com
-DOMAIN-SUFFIX,tailscale.io
-IP-CIDR,100.64.0.0/10,no-resolve

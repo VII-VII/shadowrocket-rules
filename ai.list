@@ -1,0 +1,57 @@
+# ai.list - AI 服务分流（混合策略）
+# 国外 AI 走 PROXY，国内 AI 走 DIRECT
+# blackmatrix7 收录的 OpenAI/Claude/Gemini/Copilot 不在此处，在 new.conf 直接引用
+
+# ========== 国外 AI（PROXY）==========
+DOMAIN-SUFFIX,cohere.com,PROXY
+DOMAIN-SUFFIX,codeium.com,PROXY
+DOMAIN-SUFFIX,cursor.com,PROXY
+DOMAIN-SUFFIX,cursor.sh,PROXY
+DOMAIN-SUFFIX,elevenlabs.io,PROXY
+DOMAIN-SUFFIX,groq.com,PROXY
+DOMAIN-SUFFIX,huggingface.co,PROXY
+DOMAIN-SUFFIX,midjourney.com,PROXY
+DOMAIN-SUFFIX,mistral.ai,PROXY
+DOMAIN-SUFFIX,openrouter.ai,PROXY
+DOMAIN-SUFFIX,perplexity.ai,PROXY
+DOMAIN-SUFFIX,pika.art,PROXY
+DOMAIN-SUFFIX,replicate.com,PROXY
+DOMAIN-SUFFIX,runwayml.com,PROXY
+DOMAIN-SUFFIX,stability.ai,PROXY
+DOMAIN-SUFFIX,suno.ai,PROXY
+DOMAIN-SUFFIX,suno.com,PROXY
+DOMAIN-SUFFIX,together.ai,PROXY
+DOMAIN-SUFFIX,v0.dev,PROXY
+DOMAIN-SUFFIX,x.ai,PROXY
+
+# ========== 国内 AI（DIRECT）==========
+# DeepSeek（重度使用）
+DOMAIN-SUFFIX,chat.deepseek.com,DIRECT
+DOMAIN-SUFFIX,api.deepseek.com,DIRECT
+DOMAIN-SUFFIX,deepseek.com,DIRECT
+# 阿里 通义 / 百炼 / DashScope
+DOMAIN-SUFFIX,bailian.aliyun.com,DIRECT
+DOMAIN-SUFFIX,dashscope.aliyuncs.com,DIRECT
+DOMAIN-SUFFIX,tongyi.aliyun.com,DIRECT
+DOMAIN-SUFFIX,tongyi.com,DIRECT
+# 字节 豆包 / 火山方舟
+DOMAIN-SUFFIX,ark.cn-beijing.volces.com,DIRECT
+DOMAIN-SUFFIX,doubao.com,DIRECT
+DOMAIN-SUFFIX,volcengine.com,DIRECT
+# 百度 文心一言 / 千帆
+DOMAIN-SUFFIX,qianfan.baidubce.com,DIRECT
+DOMAIN-SUFFIX,yiyan.baidu.com,DIRECT
+# 腾讯 元宝 / 混元
+DOMAIN-SUFFIX,hunyuan.tencent.com,DIRECT
+DOMAIN-SUFFIX,yuanbao.tencent.com,DIRECT
+# 其他厂商
+DOMAIN-SUFFIX,baichuan-ai.com,DIRECT
+DOMAIN-SUFFIX,bigmodel.cn,DIRECT
+DOMAIN-SUFFIX,chatglm.cn,DIRECT
+DOMAIN-SUFFIX,hailuoai.com,DIRECT
+DOMAIN-SUFFIX,lingyiwanwu.com,DIRECT
+DOMAIN-SUFFIX,minimaxi.com,DIRECT
+DOMAIN-SUFFIX,moonshot.cn,DIRECT
+DOMAIN-SUFFIX,sensechat.cn,DIRECT
+DOMAIN-SUFFIX,stepfun.com,DIRECT
+DOMAIN-SUFFIX,xfyun.cn,DIRECT
