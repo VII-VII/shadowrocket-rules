@@ -1,0 +1,10 @@
+# cdn-direct.list - 国内可访问的 CDN / 开发资源
+# 策略：DIRECT
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflareclient.com
+DOMAIN-SUFFIX,cloudflareinsights.com
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,jsdelivr.net
+DOMAIN-SUFFIX,npmjs.com
+DOMAIN-SUFFIX,npmmirror.com
