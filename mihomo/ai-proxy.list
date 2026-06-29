@@ -1,0 +1,23 @@
+# ai-proxy.list - 国外 AI（走代理）
+# 由 ai.list 拆分为 Mihomo 兼容格式
+# Generated for Nikki/Mihomo
+DOMAIN-SUFFIX,cohere.com
+DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,openrouter.ai
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,pika.art
+DOMAIN-SUFFIX,replicate.com
+DOMAIN-SUFFIX,runwayml.com
+DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,suno.ai
+DOMAIN-SUFFIX,suno.com
+DOMAIN-SUFFIX,together.ai
+DOMAIN-SUFFIX,v0.dev
+DOMAIN-SUFFIX,x.ai

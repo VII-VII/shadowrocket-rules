@@ -1,0 +1,11 @@
+# cdn-direct.list - CDN/开发资源（直连）
+# 由 cdn.list 拆分为 Mihomo 兼容格式
+# Generated for Nikki/Mihomo
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflareclient.com
+DOMAIN-SUFFIX,cloudflareinsights.com
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,jsdelivr.net
+DOMAIN-SUFFIX,npmjs.com
+DOMAIN-SUFFIX,npmmirror.com

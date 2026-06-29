@@ -1,0 +1,8 @@
+# my-custom.list - 个人自定义规则（Mihomo 版）
+# 添加需要走代理的域名，每行一条，如：
+# DOMAIN-SUFFIX,example.com
+#
+# 提示：
+# - 不需要策略后缀（PROXY/DIRECT/REJECT），策略在规则里定义
+# - 此 list 走 一分机场 代理组
+#
